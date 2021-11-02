@@ -20,7 +20,7 @@ const bootstrap = async () => {
 
     try {
       response = await axios("/pressure");
-    } catch (error) {
+    } catch (err) {
       logger.error(
         { err },
         "cannot get the latest pressure metrics; signaling that instance is not ready"
