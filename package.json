@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "browserless-sidecar",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "d4rkcr0w",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "lightship": "^6.7.2",
+    "pino": "^7.0.5"
+  }
+}
