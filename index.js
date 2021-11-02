@@ -23,7 +23,7 @@ const bootstrap = async () => {
     } catch (error) {
       logger.error(
         { err },
-        "cannot get the latest prssure metrics; signaling that instance is not ready"
+        "cannot get the latest pressure metrics; signaling that instance is not ready"
       );
 
       lightship.signalNotReady();
